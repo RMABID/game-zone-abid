@@ -350,3 +350,48 @@ button{
     font-size: 20px;
     color: rgb(255, 66, 165);
 }
+
+
+
+#card-image{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.client-card{
+    width: 243px;
+    height: 80px;
+    text-align: center;
+    border-radius: 50px;
+    display: flex;
+    gap: 10px;
+    padding: 7px;
+    align-items: center;
+    background-color: rgb(236, 234, 234);
+}
+.client-card h1{
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(11, 2, 35);
+}
+
+.client-section{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 37px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.client-section-1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 32px;
+    gap: 37px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 254px;
+
+}
