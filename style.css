@@ -21,6 +21,7 @@ ul,
 a{
     list-style: none;
     text-decoration: none;
+    color: rgb(235, 46, 46);
 }
 img{
     width: 100%;
@@ -394,4 +395,44 @@ button{
     text-align: center;
     margin-right: 254px;
 
+}
+
+footer{
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgb(11, 2, 35);
+}
+#footer-img{
+    margin-left: 460px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.footer-section-links{
+    padding-top: 6rem;
+    text-align: center;
+    align-items: center;
+}
+.footer-links ul{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 40px;
+   
+}
+.footer-icon a,
+.footer-links a{
+    color: rgb(255, 255, 255);
+}
+
+.footer-icon ul{
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    font-size: 35px;
+    margin-top: 45px;
+}
+.footer-copy-section{
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.6);
 }
