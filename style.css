@@ -11,7 +11,7 @@
 html,
 body{
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     scroll-behavior: smooth;
 }
 body{
@@ -27,7 +27,10 @@ img{
     height: 100%;
 }
 span{
-    color: rgb(255, 66, 165);
+    background: linear-gradient(rgb(249, 72, 178),rgb(135, 88, 241));
+/* text-transform: uppercase; */
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 .container{
     /* border: 1px solid red; */
@@ -199,4 +202,151 @@ text-transform: uppercase;
 #banner-text{
     margin-top: 10px;
     font-style: italic;
+}
+
+
+
+.online-games-card{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 25px;
+    justify-content: center;
+}
+.online-games-section h1{
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 120px;
+    text-align: center;
+    color: rgb(11, 2, 35);
+}
+.online-games-section p{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(83, 76, 100);
+}
+
+
+.card{
+    width: 380px;
+    height: 480px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px 5px rgb(245, 237, 237);
+    background-color: white;
+    /* border: 1px solid red; */
+    
+}
+#img{
+    width: 342px;
+    height: 400px;
+    margin: auto;
+}
+
+
+
+.downloads-section{
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.downloads-section h1{
+    width: 341px;
+    height: 180px;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: right;
+    color: rgb(11, 2, 35);
+}
+.downloads-section p{
+    width: 353px;
+    height: 90px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: right;
+    color: rgb(83, 76, 100);
+}
+.downloads-section-image{
+    width: 634px;
+    height: 650px;
+    border-radius: 8px;
+    position: relative;
+}
+.downloading-img{
+    width: 308px;
+    height: 355px;
+    padding: 10px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: -92px;
+    left: -20%;
+}
+
+#downloading-img-2{
+    left: 70%;
+}
+/* #downloads-section-content{
+    text-align: center;
+} */
+#title{
+    text-align: left;
+}
+#title-text{
+    text-align: left;
+}
+
+
+.careers-section-container{
+    margin-top: 8rem;
+    background-color: rgb(255, 66, 165);
+}
+
+.careers-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.careers-section-content{
+    width: 680px;
+    height: 581px;
+    margin-top: 5rem;
+}
+.careers-section-content h1{
+    font-weight: 700;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.careers-section-content p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+}
+.careers-section-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.careers-section-links ul > li > a {
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
+
+#links{
+    text-align: right;
+}
+button{
+    width: 275px;
+    height: 65px;
+    margin-top: 25px;
+    border-radius: 48px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 66, 165);
 }
